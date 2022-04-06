@@ -27,13 +27,13 @@
                     "tunnel-agent": "*"
           },
           "devDependencies": {
+                    "imports-loader": "<1.0.0",
                     "jstest": "~1.0.0",
                     "mime": "~1.2.0",
                     "permessage-deflate": ">=0.1.0",
                     "promises-aplus-tests": "~2.1.0",
                     "webpack": "*",
-                    "webpack-cli": "*",
-                    "imports-loader": "<1.0.0"
+                    "webpack-cli": "*"
           },
           "scripts": {
                     "start": "webpack --watch",

@@ -18,8 +18,7 @@ Gem::Specification.new do |s|
   client_files  = client_suffix.map { |ext| "build/client/faye-browser#{ext}" }
 
   s.files = %w[CHANGELOG.md LICENSE.md README.md] +
-            Dir.glob('lib/**/*.rb') +
-            client_files
+            Dir.glob('lib/**/*.rb')
 
   s.add_dependency 'cookiejar', '>= 0.3.0'
   s.add_dependency 'em-http-request', '>= 1.1.6'
